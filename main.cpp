@@ -46,7 +46,7 @@ void releaseLeftButton() {
 
 std::map<int, volatile bool> keyStates = {
     {'O', false}, {'K', false}, {'L', false}, {VK_OEM_1, false},
-    {'C', false}, {'X', false}, {'Z', false}
+    {'X', false}, {'Z', false}
 };
 
 void moveCursorContinuous() {
